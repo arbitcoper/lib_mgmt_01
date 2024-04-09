@@ -8,9 +8,9 @@ Structures
 
 Users : 
 1. Admin  
-  Keeps track of available books
-  Can add & remove librarians 
-  List of damaged books
+  a. Keeps track of available books
+  b. Can add & remove librarians 
+  c. List of damaged books
 
 2.Librarian:
   Add & manage student, books
