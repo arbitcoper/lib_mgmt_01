@@ -1,9 +1,9 @@
 Library Management System
 
-Concepts necessary : 
+Concepts necessary :  <br />
   Arrays <br />
   Pointers <br />
-  Structures <br />
+  Structures
 
 
 Users : 
