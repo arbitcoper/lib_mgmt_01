@@ -7,12 +7,12 @@ Structures
 
 
 Users : 
-1. Admin  
-  a. Keeps track of available books \n
+1. Admin  <br />
+  a. Keeps track of available books
   b. Can add & remove librarians 
   c. List of damaged books
 
-2.Librarian:
+2.Librarian: <br />
   Add & manage student, books
   Issue books
   Imposing fines
@@ -20,7 +20,7 @@ Users :
   Track of number of vacant seats
   Searching based on location
 
-3.Student:
+3.Student: <br />
   Can see list of issued books with the deadline
   Fines imposed
   Track of number of vacant seats
