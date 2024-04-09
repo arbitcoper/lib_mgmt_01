@@ -8,7 +8,7 @@ Structures
 
 Users : 
 1. Admin  
-  a. Keeps track of available books
+  a. Keeps track of available books \n
   b. Can add & remove librarians 
   c. List of damaged books
 
