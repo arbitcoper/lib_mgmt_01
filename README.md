@@ -12,7 +12,7 @@ Users :
   Can add & remove librarians 
   List of damaged books
 
-2.Librarian
+2.Librarian:
   Add & manage student, books
   Issue books
   Imposing fines
@@ -20,7 +20,7 @@ Users :
   Track of number of vacant seats
   Searching based on location
 
-3.Student
+3.Student:
   Can see list of issued books with the deadline
   Fines imposed
   Track of number of vacant seats
