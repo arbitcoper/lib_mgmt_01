@@ -5,6 +5,7 @@ Arrays
 Pointers
 Structures
 
+Add time lag and change screen function
 
 Users : 
 1. Admin  
