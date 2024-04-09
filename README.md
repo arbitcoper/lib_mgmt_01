@@ -1,9 +1,9 @@
 Library Management System
 
 Concepts necessary : 
-Arrays
-Pointers
-Structures
+  Arrays <br />
+  Pointers <br />
+  Structures <br />
 
 
 Users : 
@@ -12,7 +12,7 @@ Users :
   Can add & remove librarians <br />
   List of damaged books <br />
 
-2.Librarian: <br />
+2. Librarian: <br />
   Add & manage student, books <br />
   Issue books <br />
   Imposing fines <br />
@@ -20,7 +20,7 @@ Users :
   Track of number of vacant seats <br />
   Searching based on location <br />
 
-3.Student: <br />
+3. Student: <br />
   Can see list of issued books with the deadline <br />
   Fines imposed <br />
   Track of number of vacant seats <br />
