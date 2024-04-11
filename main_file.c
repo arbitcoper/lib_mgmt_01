@@ -2,6 +2,41 @@
 #include <stdlib.h>
 //#include <conio.h>
 
+typedef struct {
+	char b_no[7];		//book_no e.g. PR0024
+	char b_name[100];
+	char author[50];
+	int edtn[4];		//year
+	char catg[20];		//e.g. novel, biography
+	int units[3];		//units available
+	struct book *next;
+	} book;
+	
+typedef struct {
+	char uid[20];
+	char name[80];
+	char phno[15];
+	struct member *next;
+	} member;
+	
+typedef struct {
+	char us_name[20];
+	char name[80];
+	char psw[16];
+	char phno[15];
+	char addr[120];
+	struct user *next;
+	} user;
+	
+typedef struct {
+	char b_no[7];
+	char b_name[100];
+	char issued_by[20];
+	char issued_to[20];
+	char issue_date[11];
+	struct issued *next;
+	} issued;
+
 void main_page() {
 	//system("cls");
 	printf("\033c\e[3J");
@@ -38,7 +73,11 @@ void main_page() {
 
 void page_admin() {
 	int ch = 0;
+	char psw[16];
+	printf("Enter Password...");
+	scanff("%s",psw);
 	
+	//apply if condition for authentication to execute while loop
 	while (1) {
 		printf("\t   +-----------------------------------------------+\n");
 		printf("\t   |           LIBRARY MANAGEMENT SYSTEM           |\n");
@@ -75,7 +114,11 @@ void page_admin() {
 
 void page_libn() {
 	int ch = 0;
+	char psw[16];
+	printf("Enter Password...");
+	scanff("%s",psw);
 	
+	//apply if condition for authentication to execute while loop
 	while (1) {
 		printf("\t   +-----------------------------------------------+\n");
 		printf("\t   |           LIBRARY MANAGEMENT SYSTEM           |\n");
@@ -92,7 +135,7 @@ void page_libn() {
 		
 		
 		printf("Enter Choice...");
-    	scanf("%d",&ch);
+    		scanf("%d",&ch);
     	
 		switch (ch) {
 			case 1  : add_book();			//adding a book
